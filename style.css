@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-continer{
+    margin: 2%;
+}
+body{
+    font-family: 'Yusei Magic', sans-serif;
+}
+.navbar li {
+    display: inline;
+  }
+.navbar{
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+.navbar a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+
+/* top section css  */
+
+section .half-of-the-total-area{
+    width: 40%;
+    float: left;
+    margin: 0% 5% ;
+    padding-left: 2%;
+}
+section .half-of-the-total-area{
+    border: 1px solid red;
+}
+section .text-area{
+    margin-top: 80px;
+}
+section .half-of-the-total-area h1{
+    color: #363958;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+section .half-of-the-total-area #orange{
+    color: #FF8266;
+}
+section .half-of-the-total-area p{
+    color: dimgray;
+    margin-bottom: 20px;
+}
+section .half-of-the-total-area a{
+    text-decoration: none;
+    background-color: #FF8063;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+section .half-of-the-total-area img{
+    height: 400px;
+    margin: 10px auto 20px;
+    display: block;
+}
+
+
+/* projects css */
+.projects h1{
+    font-size: 50px;
+    color: #363958;
+}
+
+section .projects .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 370px;
+    width: 374px;
+    float: left;
+    padding: 1%;
+  }
